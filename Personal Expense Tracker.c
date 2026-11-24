@@ -53,8 +53,8 @@ void showSummary(float exp[], float budget)
     printf("Books         : %f\n", exp[2]);
     printf("Entertainment : %f\n", exp[3]);
     printf("-----------------------\n");
-    printf("Total Spent    : \n", total);
-    printf("Monthly Budget : \n", budget);
+    printf("Total Spent    : %f\n", total);
+    printf("Monthly Budget : %f\n", budget);
 
     if (total <= budget) 
     {
